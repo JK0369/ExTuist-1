@@ -1,0 +1,7 @@
+// 코드 출처: https://sarunw.com/posts/tuist-template/
+
+# Welcome {{ name | capitalize }}
+
+{% if name != "jake" %}
+Nice to meet you!
+{% endif %}
